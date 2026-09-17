@@ -38,5 +38,5 @@ projeto-final/
 
 Este repositório será usado para reorganizar conteúdos hoje presentes em:
 
-- [HTML-GuiaDefinitivo](https://github.com/luciano1/HTML-GuiaDefinitivo)
+
 - [aulas/HTML_The_Complete_Guide](https://github.com/luciano1/aulas/tree/main/HTML_The_Complete_Guide)
