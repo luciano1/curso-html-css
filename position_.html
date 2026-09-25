@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projeto - Position</title>
+
+    <style>
+
+        body {
+            height: 1000px;
+        }
+
+        /* Caixa principal do produto */
+        .card {
+            width: 300px;
+            height: 350px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid gray;
+
+            /* Referência para o elemento absolute */
+            position: relative;
+        }
+
+        /* Imagem do produto */
+        .card img {
+            width: 300px;
+            height: 200px;
+        }
+
+        /* Etiqueta OFERTA */
+        .tag {
+            background-color: red;
+            color: white;
+            padding: 5px;
+
+            /* Posicionada em relação ao card */
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        /* Botão Comprar */
+        .comprar {
+            position: relative;
+            margin: 30px;
+            right: 30px;
+            padding: 10px 20px;
+        }
+
+        /* Botão Ajuda */
+        .ajuda {
+            background-color: green;
+            color: white;
+            padding: 10px;
+
+            /* Fica fixo na tela */
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <span class="tag">OFERTA</span>
+
+        <!-- Imagem real carregada pela internet -->
+        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Unit%C3%A0_centrale_-_Museo_scienza_tecnologia_Milano_D1260_foto.jpg/330px-Unit%C3%A0_centrale_-_Museo_scienza_tecnologia_Milano_D1260_foto.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Produto">
+
+        <button class="comprar">Comprar</button>
+
+    </div>
+
+    <button class="ajuda">Ajuda</button>
+
+</body>
+
+</html>
